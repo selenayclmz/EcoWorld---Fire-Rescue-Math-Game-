@@ -444,7 +444,6 @@ class GroundBlock {
             int[] oy = {y + 40, y + 30 - size + offsetY, y + 40};
             g2.fillPolygon(ox, oy, 3);
             
-            // Soru kutusu
             g2.setColor(Color.WHITE);
             g2.fillRoundRect(x, y - 10 + offsetY, 40, 20, 5, 5);
             g2.setColor(Color.BLACK);
