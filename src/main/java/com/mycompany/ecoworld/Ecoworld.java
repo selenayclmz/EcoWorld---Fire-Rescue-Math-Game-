@@ -438,7 +438,7 @@ class GroundBlock {
             int[] ry = {y + 40, y + 20 - size - flicker + offsetY, y + 40};
             g2.fillPolygon(rx, ry, 3);
             
-            // Turuncu iç alev
+          
             g2.setColor(Color.ORANGE);
             int[] ox = {x + 10, x + 20, x + 30}; 
             int[] oy = {y + 40, y + 30 - size + offsetY, y + 40};
